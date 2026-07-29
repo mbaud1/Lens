@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bauduin Photography | Portfolio</title>
+  <link rel="stylesheet" href="gallery.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="logo">Bauduin<span>.Lens</span></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Home) -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Capturing Moments in Motion</h1>
+      <p>A visual showcase of landscapes, portraits, and urban stories.</p>
+      <a href="#gallery" class="btn">Explore Gallery</a>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery-section">
+    <h2>Gallery</h2>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="landscape">Landscapes</button>
+      <button class="filter-btn" data-filter="portrait">Portraits</button>
+      <button class="filter-btn" data-filter="urban">Urban</button>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item landscape">
+        <img src="https://picsum.photos/600/400?random=1" alt="Landscape Photo" loading="lazy">
+        <div class="overlay"><span>Mountain Horizon</span></div>
+      </div>
+      <div class="gallery-item portrait">
+        <img src="https://picsum.photos/600/800?random=2" alt="Portrait Photo" loading="lazy">
+        <div class="overlay"><span>Studio Portrait</span></div>
+      </div>
+      <div class="gallery-item urban">
+        <img src="https://picsum.photos/600/400?random=3" alt="Urban Photo" loading="lazy">
+        <div class="overlay"><span>City Lights</span></div>
+      </div>
+      <div class="gallery-item landscape">
+        <img src="https://picsum.photos/600/600?random=4" alt="Landscape Photo" loading="lazy">
+        <div class="overlay"><span>Ocean Sunset</span></div>
+      </div>
+      <!-- Add more images here -->
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>I am a front-end developer and photographer passionate about finding balance, framing detail, and telling authentic stories through visual design.</p>
+        <div class="stats">
+          <div><h3>5+</h3><p>Years Experience</p></div>
+          <div><h3>50+</h3><p>Projects Shot</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Get in Touch</h2>
+    <p>Available for freelance photography, web projects, and collaborations.</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Bauduin Photography. All rights reserved.</p>
+  </footer>
+  <script src="gallery.js"></script>
+
+</body>
+</html>
