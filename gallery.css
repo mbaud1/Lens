@@ -46,7 +46,22 @@ html {
 .navbar a:hover {
   color: #58a6ff;
 }
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #1e293b;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
 
+.back-btn:hover {
+  background-color: #334155;
+}
 /* Hero Section */
 .hero {
   height: 80vh;
