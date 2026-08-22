@@ -61,6 +61,21 @@ html {
 .back-btn:hover {
   background-color: #334155;
 }
+/* Ensure the link stays on a single line and aligns properly */
+.nav-links a.back-link, 
+.nav-links a[href*="m-baud.com"] {
+  white-space: nowrap;       /* Prevents "Portfolio" from breaking into a second line */
+  font-size: 0.9rem;         /* Optional: slightly match or reduce scale relative to nav */
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;               /* Clean spacing between the arrow and text */
+}
+
+/* Ensure navbar items align vertically in the middle */
+.nav-links {
+  display: flex;
+  align-items: center;       /* Keeps all menu items centered vertically */
+}
 /* Hero Section */
 .hero {
   height: 80vh;
